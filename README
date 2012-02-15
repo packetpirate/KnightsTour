@@ -1,0 +1,23 @@
+------------------------
+Author: Darin Beaudreau
+Last Updated: 02/14/2012
+Version: 1.0
+Language: Java
+------------------------
+
+Description:
+
+The Knight's Tour is a game based on Chess. The goal of the game is to try to visit all 64 of the spaces on the Chess board using the Knight without revisiting a space you have already visited.
+
+In this program, you start off at position (4,3) on the grid. Here is a key that will tell you what each character on the grid represents.
+
+E = Empty, has not been visited yet.
+X = Visited, cannot move here.
+K = Knight
+V = Valid move, the Knight can move here.
+
+To move the Knight around, specify X and Y coordinates for the Knight to move to. The coordinates you specify must be marked with a V, or you will be unable to move there. The X and Y coordinates must each be between 0 and 7. So 0,0 would be the top left space, and 7,7 would be the bottom right.
+
+TODO:
+
+- Create a graphical version of the game.
